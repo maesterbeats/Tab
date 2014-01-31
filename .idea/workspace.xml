@@ -26,9 +26,21 @@
       <file leaf-file-name="tabParse.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/tabParse.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="18" selection-start="4160" selection-end="4160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="24" column="7" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
               <folding>
-                <element signature="e#322#4139#0" expanded="false" />
+                <element signature="e#333#604#0" expanded="false" />
+                <element signature="e#623#4440#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tab.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="23" selection-start="728" selection-end="728" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="420">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#template#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -37,25 +49,7 @@
       <file leaf-file-name="client.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/client.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="0.12738854" vertical-offset="0" max-vertical-offset="1065">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extra.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/extra.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tab.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="26" selection-start="152" selection-end="152" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="720">
+            <state line="11" column="42" selection-start="238" selection-end="238" vertical-scroll-proportion="0.35031846" vertical-offset="0" max-vertical-offset="471">
               <folding />
             </state>
           </provider>
@@ -64,7 +58,7 @@
       <file leaf-file-name="tab.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tab.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="2" column="20" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -84,10 +78,10 @@
         <option value="$PROJECT_DIR$/tab.js" />
         <option value="$PROJECT_DIR$/packages/raphaeljs-package/package.js" />
         <option value="$PROJECT_DIR$/packages/raphael/package.js" />
-        <option value="$PROJECT_DIR$/tab.css" />
         <option value="$PROJECT_DIR$/client/raphael/raphael.js" />
         <option value="$PROJECT_DIR$/client/tabParse.coffee" />
         <option value="$PROJECT_DIR$/tab.html" />
+        <option value="$PROJECT_DIR$/tab.css" />
         <option value="$PROJECT_DIR$/client/client.coffee" />
       </list>
     </option>
@@ -105,6 +99,9 @@
           </State>
           <State>
             <id>File Watchers</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -160,6 +157,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -169,7 +180,7 @@
     <property name="FullScreen" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -308,7 +319,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="11" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="720">
           <folding>
-            <element signature="e#322#4139#0" expanded="false" />
+            <element signature="e#333#604#0" expanded="false" />
+            <element signature="e#623#4440#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -317,7 +329,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="768">
           <folding>
-            <element signature="e#322#4139#0" expanded="false" />
+            <element signature="e#333#604#0" expanded="false" />
+            <element signature="e#623#4440#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -326,7 +339,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="752">
           <folding>
-            <element signature="e#322#4139#0" expanded="false" />
+            <element signature="e#333#604#0" expanded="false" />
+            <element signature="e#623#4440#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -335,7 +349,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="752">
           <folding>
-            <element signature="e#322#4139#0" expanded="false" />
+            <element signature="e#333#604#0" expanded="false" />
+            <element signature="e#623#4440#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -345,22 +360,6 @@
         <state line="474" column="23" selection-start="16802" selection-end="16802" vertical-scroll-proportion="5.1595745" vertical-offset="3825" max-vertical-offset="121095">
           <folding>
             <element signature="e#203013#203630#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tab.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/tabParse.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="18" selection-start="4160" selection-end="4160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding>
-            <element signature="e#322#4139#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -386,16 +385,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/tabParse.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding>
+            <element signature="e#333#604#0" expanded="false" />
+            <element signature="e#623#4440#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tab.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="152" selection-end="152" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="720">
-          <folding />
+        <state line="33" column="23" selection-start="728" selection-end="728" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="420">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#template#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/client.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="0.12738854" vertical-offset="0" max-vertical-offset="1065">
+        <state line="11" column="42" selection-start="238" selection-end="238" vertical-scroll-proportion="0.35031846" vertical-offset="0" max-vertical-offset="471">
           <folding />
         </state>
       </provider>

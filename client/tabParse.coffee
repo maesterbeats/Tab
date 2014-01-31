@@ -10,6 +10,18 @@
 		- isWrapped() is kind of a mess...
 ###
 
+Raphael.fn.score = (tab)->
+	@_score = for staff in tab
+		for _string,y in staff
+			dy = (y * 10) + 10
+			@path( ["M", 0, dy, "H", 775, "Z" ] ).attr
+				'stroke': Raphael.color('grey')
+			for note,x in _string
+				dx = (x * 10) + 25
+				@text( dx, dy, note ).attr
+					'font-size': 14
+	return @_score
+
 
 Parser = () ->
 	isWrapped = (r) ->
