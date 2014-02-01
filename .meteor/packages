@@ -9,3 +9,5 @@ insecure
 preserve-inputs
 coffeescript
 bootstrap
+iron-router
+glyphicons-halflings

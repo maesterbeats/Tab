@@ -1,0 +1,33 @@
+<template name="tabEditor">
+  <div class="well well-large">
+    {{> tabInput}}
+    {{> showTab}}
+  </div>
+</template>
+
+
+<template name="tabInput">
+  <form class="main">
+    <div class="control-group">
+      <label class="control-label" for="message">
+        Hello there shredder. I heard you gots some tab...
+      </label>
+      <div class="controls">
+        <textarea name="message" type="text" value="" placeholder="Better put it here."/>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <input type="submit" value="Submit" class="btn btn-info"/>
+      </div>
+    </div>
+  </form>
+</template>
+
+
+<template name="showTab">
+  <div>
+    <label class="text-center">Your tab good sir...</label>
+    <div id="canvas_container"> </div>
+  </div>
+</template>
