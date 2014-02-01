@@ -5,8 +5,9 @@ Meteor.startup ->
 
 Deps.autorun ->
 	t = Session.get 'userTab'
-	paper.score(t) if paper?
-
+	if paper?
+		paper.clear()
+		paper.score(t)
 ###
 	coffeescript is going to automaticaly make paper a localy (file) scoped var
         Ive tried adding @paper to give it global scope but it doesnt work.
@@ -18,16 +19,36 @@ Deps.autorun ->
 
 paper = null
 
+###
+        TODO:
+                Make multiple view options like chazee said
+###
+
+tabEditor = Template.tabInput
+_.extend tabEditor,
+	events:
+		'keyup form': (e)->
+			e.preventDefault()
+			tab = e.target.value
+			console.log tab
+			t = tabParser tab
+			Session.set 'userTab', t
+
+###
 
 Template.tabInput.events =
-	###
-		Make entire form element reactive so the tab is rerendered without using submit.
-	###
+	'change form': (e)->
+		e.preventDefault()
+                tab = $(e.target).find('[name=message]').val()
+                t = tabParser tab
+                Session.set 'userTab', t
+
 	'submit form': (e)->
 		e.preventDefault()
 		tab = $(e.target).find('[name=message]').val()
 		t = tabParser tab
 		Session.set 'userTab', t
+###
 
 Template.showTab.rendered = ->
 	paper = Raphael 'canvas_container'

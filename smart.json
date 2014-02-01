@@ -1,6 +1,7 @@
 {
   "packages": {
     "iron-router": {},
-    "glyphicons-halflings": {}
+    "glyphicons-halflings": {},
+    "bootstrap-3": {}
   }
 }

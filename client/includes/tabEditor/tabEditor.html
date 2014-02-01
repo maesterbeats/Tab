@@ -1,24 +1,29 @@
 <template name="tabEditor">
-  <div class="well well-large">
-    {{> tabInput}}
-    {{> showTab}}
-  </div>
+  <div class="row">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Tab tab tab...</h3>
+      </div>
+      <div class=" col-md-6">
+        <div class="panel-body">
+          {{> tabInput}}
+        </div>
+      </div>
+      <div class="col-md-6"
+        <div class="panel-body">
+          {{> showTab}}
+        </div>
+      </div>
+    </div>
+    </div>
 </template>
 
 
 <template name="tabInput">
   <form class="main">
     <div class="control-group">
-      <label class="control-label" for="message">
-        Hello there shredder. I heard you gots some tab...
-      </label>
       <div class="controls">
-        <textarea name="message" type="text" value="" placeholder="Better put it here."/>
-      </div>
-    </div>
-    <div class="control-group">
-      <div class="controls">
-        <input type="submit" value="Submit" class="btn btn-info"/>
+        <textarea class="input-block-level" name="message" type="text" value="" placeholder="Better put it here."/>
       </div>
     </div>
   </form>
@@ -26,8 +31,7 @@
 
 
 <template name="showTab">
-  <div>
-    <label class="text-center">Your tab good sir...</label>
+  <div class="container-fluid">
     <div id="canvas_container"> </div>
   </div>
 </template>
