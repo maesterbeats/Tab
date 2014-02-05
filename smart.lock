@@ -9,7 +9,13 @@
         "version": "1.0.2"
       },
       "bootstrap-3": {
-        "version": "0.3.7"
+        "version": "3.1.0-1"
+      },
+      "livescript-latest": {
+        "version": "1.2.0"
+      },
+      "prelude": {
+        "version": "1.0.3"
       }
     },
     "packages": {
@@ -25,8 +31,18 @@
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v0.3.7",
-        "commit": "5dd0d142c870647b910be80bc777b96f0dd45e5e"
+        "tag": "v3.1.0-1",
+        "commit": "329dccb08bfc18c635676dea600ac9953162cda9"
+      },
+      "livescript-latest": {
+        "git": "https://github.com/Whoaa512/meteor-livescript.git",
+        "tag": "v1.2.0",
+        "commit": "575a34ef4610fa6e200012f06fd56043e0126ad3"
+      },
+      "prelude": {
+        "git": "https://github.com/maninalift/prelude-ls-meteor.git",
+        "tag": "v1.0.3",
+        "commit": "d850ae208c3588db627260cd6299e923024009f5"
       }
     }
   }
